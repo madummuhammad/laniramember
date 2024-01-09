@@ -6178,6 +6178,7 @@ body .theme-btn-eighteen:hover:before {background: #FF7961;}
   background: #F5F5F5;
   height: 470px;
   z-index: 5;
+  overflow: hidden;
   margin-bottom: 22px;
 }
 .product-block-two .img-holder.style-two {height: auto;}

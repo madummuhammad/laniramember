@@ -35,22 +35,14 @@
 					<div class="product-block-two mb-60 xs-mb-40">
 						<div class="img-holder">
 							<a href="{{url('product')}}/{{$product->id}}" class="d-flex align-items-center justify-content-center">
-								<img src="{{url('image/product')}}/{{$product->photo}}" alt="" class="product-img tran4s">
+								<img src="{{url('image/product')}}/{{$product->photo}}" alt="" class="product-img  tran4s">
 							</a>
 							<div class="tag-one">SALE</div>
-						</div> <!-- /.img-holder -->
+						</div>
 						<div class="product-meta">
 							<div class="d-lg-flex align-items-center justify-content-between">
 								<a href="{{url('product')}}/{{$product->id}}" class="product-title">{{$product->name}}</a>
-							<!-- 	<ul class="style-none d-flex rating">
-									<li><i class="bi bi-star-fill"></i></li>
-									<li><i class="bi bi-star-fill"></i></li>
-									<li><i class="bi bi-star-fill"></i></li>
-									<li><i class="bi bi-star-fill"></i></li>
-									<li><i class="bi bi-star"></i></li>
-								</ul> -->
 							</div>
-							<!-- <div class="price">$17.99</div> -->
 						</div>
 					</div>
 				</div>

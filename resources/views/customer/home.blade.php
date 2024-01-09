@@ -23,14 +23,18 @@
 			@foreach($ready_stock as $product)
 			<div class="item">
 				<div class="product-block-one">
-					<a href="{{url('product')}}/{{$product->id}}" class="d-flex align-items-center justify-content-center h-100"><img src="https://admin.laniragroup.com/fotoproduk/{{$product->photo}}" alt="" class="product-img tran4s">
+					<!-- <a href="{{url('product')}}/{{$product->id}}" class="d-flex align-items-center justify-content-center h-100"><img src="https://admin.laniragroup.com/fotoproduk/{{$product->photo}}" alt="" class="product-img tran4s">
 					</a>
-					<a href="{{url('product')}}/{{$product->id}}" class="category-tag">{{$product->name}}</a>
-				</div>
+				-->
+				<a href="{{url('product')}}/{{$product->id}}" class="d-flex align-items-center justify-content-center h-100"><img src="http://localhost:8001/image/product/{{$product->photo}}" alt="" class="product-img tran4s">
+				</a>
+
+				<a href="{{url('product')}}/{{$product->id}}" class="category-tag">{{$product->name}}</a>
 			</div>
-			@endforeach
 		</div>
+		@endforeach
 	</div>
+</div>
 </div>
 
 <div class="product-section-one mt-180 lg-mt-100">
